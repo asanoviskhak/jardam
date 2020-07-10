@@ -124,11 +124,11 @@
     <table id="myTable" cellpadding="2" cellspacing="2" border="1" onclick="tester()"></table>
         <script>
             var student;
-            for (var j = 0; j < 10; j++) {
+            for ( $row = 0; $row < 8; $row++) {
                 student = {
-                    name: "Name" + j,
-                    rank: "Rank" + j,
-                    stuclass: "Class" + j,
+                    name: "Date" + j,
+                    rank: "Name" + j,
+                    stuclass: "Phone" + j,
                 };
                 var table = document.getElementById("myTable");
                 var row = table.insertRow(j);
